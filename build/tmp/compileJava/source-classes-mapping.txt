@@ -1,0 +1,22 @@
+com/choucair/certification/automationpractice/userinterface/HomeUI.java
+ com.choucair.certification.automationpractice.userinterface.HomeUI
+com/choucair/certification/automationpractice/tasks/IgresarEmail.java
+ com.choucair.certification.automationpractice.tasks.IgresarEmail
+com/choucair/certification/automationpractice/model/UserData.java
+ com.choucair.certification.automationpractice.model.UserData
+com/choucair/certification/automationpractice/tasks/OpenThePage.java
+ com.choucair.certification.automationpractice.tasks.OpenThePage
+com/choucair/certification/automationpractice/userinterface/FormLoginUI.java
+ com.choucair.certification.automationpractice.userinterface.FormLoginUI
+com/choucair/certification/automationpractice/util/Constantes.java
+ com.choucair.certification.automationpractice.util.Constantes
+com/choucair/certification/automationpractice/userinterface/HomePage.java
+ com.choucair.certification.automationpractice.userinterface.HomePage
+com/choucair/certification/automationpractice/userinterface/FormCreateUser.java
+ com.choucair.certification.automationpractice.userinterface.FormCreateUser
+com/choucair/certification/automationpractice/tasks/CrearCuenta.java
+ com.choucair.certification.automationpractice.tasks.CrearCuenta
+com/choucair/certification/automationpractice/userinterface/SesionUserUI.java
+ com.choucair.certification.automationpractice.userinterface.SesionUserUI
+com/choucair/certification/automationpractice/questions/VerificarResultado.java
+ com.choucair.certification.automationpractice.questions.VerificarResultado
