@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Tienda Virtual Automation Practice" skipped="0" tests="1" time="36.54" timestamp="2021-10-31 11:52:46"><testcase name="creacion de cuenta de usuario"><failure message="Expected net.serenitybdd.screenplay.QuestionSubject@5557fe7a&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected net.serenitybdd.screenplay.QuestionSubject@5557fe7a
-Expected: is &lt;true&gt;
-     but: was &lt;false&gt;</failure><system-err>Expected net.serenitybdd.screenplay.QuestionSubject@5557fe7a
-Expected: is &lt;true&gt;
-     but: was &lt;false&gt;&#13;
-com.choucair.certification.automationpractice.stepsdefinitions.automationPracticeDemoStepsdefinitions.verificoQueElEnElPerfilDeUsuarioSeVisualiceElNombre(automationPracticeDemoStepsdefinitions.java:46)&#13;
-✽.verifico que el en el perfil de usuario se visualice el nombre(src/test/resources/features/automationPracticeDemo.feature:30)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Tienda Virtual Automation Practice" skipped="0" tests="2" time="117.79" timestamp="2021-11-02 11:14:17"><testcase name="creacion de cuenta de usuario"/><testcase name="comprar producto en automationpractice.com"/></testsuite>

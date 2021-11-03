@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/automationPracticeDemo.feature",
         glue = {"com.choucair.certification.automationpractice.stepsdefinitions"},
-        tags = "@ComprarProducto",
+        //tags = "@ComprarProducto",
         snippets = SnippetType.CAMELCASE
 )
 

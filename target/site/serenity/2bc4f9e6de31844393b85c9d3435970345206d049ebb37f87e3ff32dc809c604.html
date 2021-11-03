@@ -45,7 +45,7 @@
     <div id="topbanner">
         <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
         <div id="projectname-banner" style="float:right">
-            <span class="projectname">Coarchitech - Screenplay Pattern</span>
+            <span class="projectname">Automation Practice - Screenplay Pattern</span>
         </div>
     </div>
 </div>
@@ -78,7 +78,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 31-10-2021 23:52</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-11-2021 23:14</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -98,7 +98,8 @@
 
                                 <div class="discreet-requirement-narrative-title">
                                 El Usuario ingresa a automationpractice.com
-realiza el proceso de registro de cuenta
+Realiza el proceso de registro de cuenta
+Y comprar prodcuto.
                                 </div>
                             </div>
 
@@ -126,9 +127,9 @@ realiza el proceso de registro de cuenta
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
-                                    <span class="failing-color">
+                                    <span class="success-color">
                                     creacion de cuenta de usuario
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -145,7 +146,7 @@ realiza el proceso de registro de cuenta
     <div class="story-title">
         <h3 class="story-header">Scenario Outline</h3>
 
-        <div class="scenario">Given Carlos ingresa un email valido karlosatencia5@gmail.com<br>When diligencio formulario de creacion de usuario con los datos<br>Then verifico que el en el perfil de usuario se visualice el nombre</div>
+        <div class="scenario">Given Carlos ingresa un email valido<br>When diligencio formulario de creacion de usuario con los datos<br>Then verifico que el en el perfil de usuario se visualice el nombre</div>
 
     </div>
 
@@ -176,36 +177,39 @@ realiza el proceso de registro de cuenta
                         <th>Codigopostal</th>
                         <th>Pais</th>
                         <th>Celular</th>
+                        <th>Email</th>
                 </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="test-FAILURE"><a href="#0">1</a></td>
-                            <td class="test-FAILURE"><a href="#0">Mr.</a>
+                        <td class="test-SUCCESS"><a href="#0">1</a></td>
+                            <td class="test-SUCCESS"><a href="#0">Mr.</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#0">Carlos</a>
+                            <td class="test-SUCCESS"><a href="#0">Carlos</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#0">Atencia</a>
+                            <td class="test-SUCCESS"><a href="#0">Atencia</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#0">123456</a>
+                            <td class="test-SUCCESS"><a href="#0">123456</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#0">2</a>
+                            <td class="test-SUCCESS"><a href="#0">2</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#0">6</a>
+                            <td class="test-SUCCESS"><a href="#0">6</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#0">1991</a>
+                            <td class="test-SUCCESS"><a href="#0">1991</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#0">Cra. 48 #68 Sur-38</a>
+                            <td class="test-SUCCESS"><a href="#0">Cra. 48 #68 Sur-38</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#0">Sabaneta</a>
+                            <td class="test-SUCCESS"><a href="#0">Sabaneta</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#0">California</a>
+                            <td class="test-SUCCESS"><a href="#0">California</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#0">05545</a>
+                            <td class="test-SUCCESS"><a href="#0">05545</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#0">United States</a>
+                            <td class="test-SUCCESS"><a href="#0">United States</a>
                             </td>
-                            <td class="test-FAILURE"><a href="#0">3014784362</a>
+                            <td class="test-SUCCESS"><a href="#0">3014784362</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">karlosatencia70@gmail.com</a>
                             </td>
                     </tr>
                 </tbody>
@@ -229,12 +233,12 @@ realiza el proceso de registro de cuenta
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 failure-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -243,16 +247,23 @@ realiza el proceso de registro de cuenta
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
                             <span class="top-level-step">
-                                creacion de cuenta de usuario #1: {titulo=Mr., nombre=Carlos, apellido=Atencia, pasword=123456, dia=2, mes=6, year=1991, direccion=Cra. 48 #68 Sur-38, ciudad=Sabaneta, estado=California, codigoPostal=05545, pais=United States, celular=3014784362}
+                                creacion de cuenta de usuario #1: {titulo=Mr., nombre=Carlos, apellido=Atencia, pasword=123456, dia=2, mes=6, year=1991, direccion=Cra. 48 #68 Sur-38, ciudad=Sabaneta, estado=California, codigoPostal=05545, pais=United States, celular=3014784362, email=karlosatencia70@gmail.com}
                             </span>
                             </a>
 
                         </div>
                     </td>
-                        <td width="100" class="FAILURE-text">
+                        <td width="100" class="SUCCESS-text">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=0">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="0d977fb340fb9eb226751da9498080850a76058c107fb1d2f628ea9e4b184121.png"
+                                         href="0d977fb340fb9eb226751da9498080850a76058c107fb1d2f628ea9e4b184121.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
                         </td>
-                    <td width="100"><span class="top-level-step">FAILURE</span></td>
-                    <td width="100"><span class="top-level-step">28.85s</span></td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">52.79s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -267,22 +278,22 @@ realiza el proceso de registro de cuenta
                     <td>
                         <div class="step-description">
                             <span class="nested-step">
-                                Given Carlos ingresa un email valido karlosatencia5@gmail.com
+                                Given Carlos ingresa un email valido<br><table class='embedded'><thead><th>karlosatencia70@gmail.com</th></thead><tbody></tbody></table>
                             </span>
 
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=0">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=1">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="a5471569eb46c9984b98f4b4cce1aca80dc5c163ebe56002993431507547cf93.png"
-                                         href="a5471569eb46c9984b98f4b4cce1aca80dc5c163ebe56002993431507547cf93.png"
+                                    <img src="87503c673c8c10924537c3cf13791974bbb8b50c39575e7cfec94a26a78ddb39.png"
+                                         href="87503c673c8c10924537c3cf13791974bbb8b50c39575e7cfec94a26a78ddb39.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">12.72s</span></td>
+                    <td width="100"><span class="nested-step">23.73s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -299,16 +310,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=1">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=2">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="06851bfd7c5de0f138bde0db139d80020885dec1df9251e4da8be27f7f9df9bc.png"
-                                         href="06851bfd7c5de0f138bde0db139d80020885dec1df9251e4da8be27f7f9df9bc.png"
+                                    <img src="cf5b031180d158de1badaff32c6fb5975995a61f8e2d41cf93af833d79ac4c09.png"
+                                         href="cf5b031180d158de1badaff32c6fb5975995a61f8e2d41cf93af833d79ac4c09.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">8.04s</span></td>
+                    <td width="100"><span class="nested-group-step">10.45s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -325,16 +336,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=2">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=3">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="db844f6728fc2c3805b32b8edc24e475a15f61985363e259bd86a46c1334c707.png"
-                                         href="db844f6728fc2c3805b32b8edc24e475a15f61985363e259bd86a46c1334c707.png"
+                                    <img src="63b176f91b2868e05ae3c4e477910080f03954901f86e7fd80f6afa6b13fb8f9.png"
+                                         href="63b176f91b2868e05ae3c4e477910080f03954901f86e7fd80f6afa6b13fb8f9.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">2.42s</span></td>
+                    <td width="100"><span class="nested-group-step">10.87s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -345,22 +356,22 @@ realiza el proceso de registro de cuenta
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Carlos enters 'karlosatencia5@gmail.com' into Caja de texto email
+                                Carlos enters 'karlosatencia70@gmail.com' into Caja de texto email
                             </span>
 
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=4">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=5">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="5e6f4342a339f1be9c977e9a176eea2527800051f1e95aa6b31719e219fbf6b5.png"
-                                         href="5e6f4342a339f1be9c977e9a176eea2527800051f1e95aa6b31719e219fbf6b5.png"
+                                    <img src="929c0df2afcf83523e21f379140545390cb5cb66c9167c9f25ca0e95ab693c19.png"
+                                         href="929c0df2afcf83523e21f379140545390cb5cb66c9167c9f25ca0e95ab693c19.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.65s</span></td>
+                    <td width="100"><span class="nested-group-step">0.81s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -377,16 +388,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=6">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=7">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="6fad56b8ad49f68f2452c33b96ba1bbb7366f6cebb1bc4250dc82f2752327e6c.png"
-                                         href="6fad56b8ad49f68f2452c33b96ba1bbb7366f6cebb1bc4250dc82f2752327e6c.png"
+                                    <img src="650a801eb86dcbb3d03c0f60aba1639fb8b99e2f03e546e7b9a1f4aa53e5d7c9.png"
+                                         href="650a801eb86dcbb3d03c0f60aba1639fb8b99e2f03e546e7b9a1f4aa53e5d7c9.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.45s</span></td>
+                    <td width="100"><span class="nested-group-step">0.59s</span></td>
                 </tr>
 
                 <tr class="test-SUCCESS">
@@ -404,16 +415,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=8">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=9">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="ff5f65283f62549bf425d87e3e2d744bdd18902ac61a85dec01741bf7f7ab43c.png"
-                                         href="ff5f65283f62549bf425d87e3e2d744bdd18902ac61a85dec01741bf7f7ab43c.png"
+                                    <img src="0d977fb340fb9eb226751da9498080850a76058c107fb1d2f628ea9e4b184121.png"
+                                         href="0d977fb340fb9eb226751da9498080850a76058c107fb1d2f628ea9e4b184121.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">15.06s</span></td>
+                    <td width="100"><span class="nested-step">27.56s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -430,16 +441,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=10">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=11">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="7e387c613910a62b799408535ab0d61d6ced63f56da09235c6ca6b597f944de8.png"
-                                         href="7e387c613910a62b799408535ab0d61d6ced63f56da09235c6ca6b597f944de8.png"
+                                    <img src="f5ff1a89d0c7bbe5f4b3f47b7c7664c2fa76ed9b27c12745ceb9d5f139fbd134.png"
+                                         href="f5ff1a89d0c7bbe5f4b3f47b7c7664c2fa76ed9b27c12745ceb9d5f139fbd134.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">1.19s</span></td>
+                    <td width="100"><span class="nested-group-step">5.07s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -456,16 +467,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=12">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=13">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="531331608fb519d6147e6b33c2f3d77486a9273113b09e7ddee1ec29ee3f77f5.png"
-                                         href="531331608fb519d6147e6b33c2f3d77486a9273113b09e7ddee1ec29ee3f77f5.png"
+                                    <img src="5bbc1a8145fbc1f59f82e60b5f33723bfa4499f405c94ea8a207ab2855758aa2.png"
+                                         href="5bbc1a8145fbc1f59f82e60b5f33723bfa4499f405c94ea8a207ab2855758aa2.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.7s</span></td>
+                    <td width="100"><span class="nested-group-step">0.76s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -482,16 +493,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=14">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=15">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="73811c18077a1369aebd633e3efeec9b56f376ac401101364de41c6a028e6e28.png"
-                                         href="73811c18077a1369aebd633e3efeec9b56f376ac401101364de41c6a028e6e28.png"
+                                    <img src="64a24bb51ccb8b5c9ee6e942915791e5b2f3edee8134c2460c330ae08f8c0ac4.png"
+                                         href="64a24bb51ccb8b5c9ee6e942915791e5b2f3edee8134c2460c330ae08f8c0ac4.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.65s</span></td>
+                    <td width="100"><span class="nested-group-step">0.69s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -508,16 +519,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=16">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=17">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="b666c89d44c7e43465caae6227193233ffb31709ec3d57b1b957d96f35337a2a.png"
-                                         href="b666c89d44c7e43465caae6227193233ffb31709ec3d57b1b957d96f35337a2a.png"
+                                    <img src="0e35aaf04b46c70150695dc2306f6560fd86ba8e02399916fee2c6026f49781a.png"
+                                         href="0e35aaf04b46c70150695dc2306f6560fd86ba8e02399916fee2c6026f49781a.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.62s</span></td>
+                    <td width="100"><span class="nested-group-step">0.65s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -534,16 +545,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=18">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=19">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="1ee13d9d8ff8dd95303ccd0fe188008e2dd0bc6536912d5ce35fed66f79e12fe.png"
-                                         href="1ee13d9d8ff8dd95303ccd0fe188008e2dd0bc6536912d5ce35fed66f79e12fe.png"
+                                    <img src="e0e2e77d742d68aa5e63edf327ed04bf634777dfb331b43b2ab810b9c0731c0a.png"
+                                         href="e0e2e77d742d68aa5e63edf327ed04bf634777dfb331b43b2ab810b9c0731c0a.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.56s</span></td>
+                    <td width="100"><span class="nested-group-step">0.63s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -560,16 +571,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=20">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=21">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="39ef91949e6085fc95ef1e3e2e5439abf60c2dacd90fc932d8225bc9c99fcc0b.png"
-                                         href="39ef91949e6085fc95ef1e3e2e5439abf60c2dacd90fc932d8225bc9c99fcc0b.png"
+                                    <img src="831abfb79c95cea938d0c8e2f74321a83f15530da7c4aa5101e6179273f63f9a.png"
+                                         href="831abfb79c95cea938d0c8e2f74321a83f15530da7c4aa5101e6179273f63f9a.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.56s</span></td>
+                    <td width="100"><span class="nested-group-step">0.61s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -586,36 +597,10 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=22">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=23">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="7a524662c64c7dbcd561ac053ca0f78c603414e5bd4805bfc90cc0e5c012b445.png"
-                                         href="7a524662c64c7dbcd561ac053ca0f78c603414e5bd4805bfc90cc0e5c012b445.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.5s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                Carlos enters 'Cra. 48 #68 Sur-38' into
-                            </span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=24">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="e358c2b58138c20c533ad87513b522251b9a054af7d1948b01885f09a9497690.png"
-                                         href="e358c2b58138c20c533ad87513b522251b9a054af7d1948b01885f09a9497690.png"
+                                    <img src="686acbcee59f079c8b355dbb12f0bb69c86f1bee668220bbef11ad242a086039.png"
+                                         href="686acbcee59f079c8b355dbb12f0bb69c86f1bee668220bbef11ad242a086039.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
@@ -632,22 +617,48 @@ realiza el proceso de registro de cuenta
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
+                                Carlos enters 'Cra. 48 #68 Sur-38' into
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=25">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="16a50eacfe5db1d7653ed49c1e7277e7d1ce62e95544eb04349b51f1a4f0e931.png"
+                                         href="16a50eacfe5db1d7653ed49c1e7277e7d1ce62e95544eb04349b51f1a4f0e931.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.68s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
                                 Carlos enters 'Sabaneta' into
                             </span>
 
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=26">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=27">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="1f0a6fd67f8af9574b300e1b53fdccfa02a3709ae87715f66b4f48dd3485b4a4.png"
-                                         href="1f0a6fd67f8af9574b300e1b53fdccfa02a3709ae87715f66b4f48dd3485b4a4.png"
+                                    <img src="c5628828801b4138a93a91520c29b8694a603cddf7d38244b170969416838758.png"
+                                         href="c5628828801b4138a93a91520c29b8694a603cddf7d38244b170969416838758.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.56s</span></td>
+                    <td width="100"><span class="nested-group-step">0.63s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -664,16 +675,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=28">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=29">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="0f48549cb927392b26209e19cee4009b5ea536f7d13ccb8c45706bb3c47052f9.png"
-                                         href="0f48549cb927392b26209e19cee4009b5ea536f7d13ccb8c45706bb3c47052f9.png"
+                                    <img src="cb709f1c9c195fa32d50793bae2a1deede5debdb33f771e78e3e8081b1978fab.png"
+                                         href="cb709f1c9c195fa32d50793bae2a1deede5debdb33f771e78e3e8081b1978fab.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.47s</span></td>
+                    <td width="100"><span class="nested-group-step">0.6s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -690,16 +701,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=30">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=31">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="cc3edab38a41cf711d9555dcc8f7d1c96b15b8c23583ce781a8e61e4f64d6c9c.png"
-                                         href="cc3edab38a41cf711d9555dcc8f7d1c96b15b8c23583ce781a8e61e4f64d6c9c.png"
+                                    <img src="27b1e7a47ea8f4d9c33b57541b42cf0ce7bdc339ca21ab41c369a84cf43b5607.png"
+                                         href="27b1e7a47ea8f4d9c33b57541b42cf0ce7bdc339ca21ab41c369a84cf43b5607.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.49s</span></td>
+                    <td width="100"><span class="nested-group-step">0.65s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -716,16 +727,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=32">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=33">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="cc3edab38a41cf711d9555dcc8f7d1c96b15b8c23583ce781a8e61e4f64d6c9c.png"
-                                         href="cc3edab38a41cf711d9555dcc8f7d1c96b15b8c23583ce781a8e61e4f64d6c9c.png"
+                                    <img src="67763085716ee257ea90cad619f9ccf288558cc7d0c6454a578ce5ea99c5efbd.png"
+                                         href="67763085716ee257ea90cad619f9ccf288558cc7d0c6454a578ce5ea99c5efbd.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.35s</span></td>
+                    <td width="100"><span class="nested-group-step">0.53s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -742,16 +753,16 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=33">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=35">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="40d5b6c46722c3807356a10c97e7d666a660e3c1ea47a7a1422c0f669c5cc566.png"
-                                         href="40d5b6c46722c3807356a10c97e7d666a660e3c1ea47a7a1422c0f669c5cc566.png"
+                                    <img src="192b94229604f4d6c70f6d9f5be6da2e6a794a474229dd15d1492856b7964b11.png"
+                                         href="192b94229604f4d6c70f6d9f5be6da2e6a794a474229dd15d1492856b7964b11.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.5s</span></td>
+                    <td width="100"><span class="nested-group-step">0.64s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -768,23 +779,23 @@ realiza el proceso de registro de cuenta
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=35">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=37">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="ff5f65283f62549bf425d87e3e2d744bdd18902ac61a85dec01741bf7f7ab43c.png"
-                                         href="ff5f65283f62549bf425d87e3e2d744bdd18902ac61a85dec01741bf7f7ab43c.png"
+                                    <img src="0d977fb340fb9eb226751da9498080850a76058c107fb1d2f628ea9e4b184121.png"
+                                         href="0d977fb340fb9eb226751da9498080850a76058c107fb1d2f628ea9e4b184121.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">1.77s</span></td>
+                    <td width="100"><span class="nested-group-step">9.18s</span></td>
                 </tr>
 
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -794,23 +805,23 @@ realiza el proceso de registro de cuenta
 
                         </div>
                     </td>
-                        <td width="100" class="FAILURE-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=37">
+                        <td width="100" class="SUCCESS-text">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=39">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="ff5f65283f62549bf425d87e3e2d744bdd18902ac61a85dec01741bf7f7ab43c.png"
-                                         href="ff5f65283f62549bf425d87e3e2d744bdd18902ac61a85dec01741bf7f7ab43c.png"
+                                    <img src="0d977fb340fb9eb226751da9498080850a76058c107fb1d2f628ea9e4b184121.png"
+                                         href="0d977fb340fb9eb226751da9498080850a76058c107fb1d2f628ea9e4b184121.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="nested-step">FAILURE</span></td>
-                    <td width="100"><span class="nested-step">0.91s</span></td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">1.19s</span></td>
                 </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -820,73 +831,27 @@ realiza el proceso de registro de cuenta
 
                         </div>
                     </td>
-                        <td width="100" class="FAILURE-text">
-                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=38">
+                        <td width="100" class="SUCCESS-text">
+                                <a href="2bc4f9e6de31844393b85c9d3435970345206d049ebb37f87e3ff32dc809c604_screenshots.html#screenshots?screenshot=40">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="ff5f65283f62549bf425d87e3e2d744bdd18902ac61a85dec01741bf7f7ab43c.png"
-                                         href="ff5f65283f62549bf425d87e3e2d744bdd18902ac61a85dec01741bf7f7ab43c.png"
+                                    <img src="0d977fb340fb9eb226751da9498080850a76058c107fb1d2f628ea9e4b184121.png"
+                                         href="0d977fb340fb9eb226751da9498080850a76058c107fb1d2f628ea9e4b184121.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="nested-group-step">FAILURE</span></td>
-                    <td width="100"><span class="nested-group-step">0.54s</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.59s</span></td>
                 </tr>
-                    <tr class="test-FAILURE">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="4" class="error-message-cell">
-                            <div class="error-message ellipsis"
-                                 title='Assertion error: Expected net.serenitybdd.screenplay.QuestionSubject@5557fe7aExpected: is &lt;true&gt; but: was &lt;false&gt;'>
-                                <pre>Assertion error: Expected net.serenitybdd.screenplay.QuestionSubject@5557fe7aExpected: is &lt;true&gt; but: was &lt;false&gt;</pre>
-                            </div>
-                <div><!-- Stack trace -->
-                    <button type="button" class="btn btn-danger" data-toggle="modal"
-                            data-target="#stacktraceModal-23">
-                        View details
-                    </button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal-23" tabindex="-1" role="dialog"
-                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"
-                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title" id="stacktraceModalLabel">
-                                    java.lang.AssertionError
-                                </h4>
-                            </div>
-                            <div class="modal-body">
-                                    <h5>
-                                        <pre>Expected net.serenitybdd.screenplay.QuestionSubject@5557fe7a<br>Expected: is &lt;true&gt;<br>     but: was &lt;false&gt;</pre>
-                                    </h5>
-                                    com.choucair.certification.automationpractice.stepsdefinitions.automationPracticeDemoStepsdefinitions.verificoQueElEnElPerfilDeUsuarioSeVisualiceElNombre(automationPracticeDemoStepsdefinitions.java
-                                    :46) <br>
-                                    cucumber.runner.Runner.runPickle(Runner.java
-                                    :80) <br>
-                            </div>
-
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                        </td>
-                    </tr>
 
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                     <td colspan="3"></td>
-                    <td width="100"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>36.54s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>58.32s</em></span></td>
                 </tr>
 
             </table>

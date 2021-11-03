@@ -33,7 +33,7 @@ Feature: Tienda Virtual Automation Practice
         |<nombre>|<apellido>|
     Examples:
     |titulo|nombre|apellido|pasword|dia|mes|year|direccion|ciudad|estado|codigoPostal|pais|celular|email|
-    |Mr.   |Carlos|Atencia |123456|2 |6|1991|Cra. 48 #68 Sur-38|Sabaneta|California|05545|United States|3014784362|karlosatencia59@gmail.com|
+    |Mr.   |Carlos|Atencia |123456|2 |6|1991|Cra. 48 #68 Sur-38|Sabaneta|California|05545|United States|3014784362|karlosatencia70@gmail.com|
 
     @ComprarProducto
     Scenario Outline: comprar producto en automationpractice.com
@@ -45,7 +45,7 @@ Feature: Tienda Virtual Automation Practice
         |<producto>|
       Examples:
         |email|password|categoria|subcategoria|producto|
-        |karlosatencia1@gmail.com|123456|Women|T-shirts|Faded Short Sleeve T-shirts|
+        |karlosatencia70@gmail.com|123456|Women|T-shirts|Faded Short Sleeve T-shirts|
 
 
 

@@ -1,4 +1,0 @@
-com/choucair/certification/automationpractice/runners/AutomationPracticeDemoRunner.java
- com.choucair.certification.automationpractice.runners.AutomationPracticeDemoRunner
-com/choucair/certification/automationpractice/stepsdefinitions/automationPracticeDemoStepsdefinitions.java
- com.choucair.certification.automationpractice.stepsdefinitions.automationPracticeDemoStepsdefinitions
